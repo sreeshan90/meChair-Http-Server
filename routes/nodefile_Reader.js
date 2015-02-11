@@ -30,7 +30,7 @@ var feedID =  conf.feedID;
 var optionsKandy = {
 
     host: 'api.kandy.io',
-    path: '/v1.1/domains/users/accesstokens?key=&user_id=' +UserId+'&user_password='+Password
+    path: '/v1.1/domains/users/accesstokens?key=&user_id='+UserId+'&user_password='+Password
 
 };
 
